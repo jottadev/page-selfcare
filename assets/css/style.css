@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+header {
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+}
+header a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #161616;
+}
+header .buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+header .buttons img {
+  width: 25px;
+}
+
+/* Fim estilos - Header */
+main .banner {
+  width: 100vw;
+  height: 50vh;
+  background: url(/assets/images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 700px) {
+  main .banner {
+    height: 30vh;
+  }
+}
+main .info_produtos {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+}
+main .info_produtos h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main .info_produtos h4 {
+  font-weight: 400;
+}
+main .card_produtos img {
+  width: 100px;
+}/*# sourceMappingURL=style.css.map */

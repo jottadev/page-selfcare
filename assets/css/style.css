@@ -13,6 +13,11 @@ header {
   justify-content: space-between;
   padding: 0 5rem 0 5rem;
 }
+@media screen and (max-width: 699px) {
+  header {
+    padding: 0 2rem 0 2rem;
+  }
+}
 header a {
   font-size: 1.2rem;
   font-weight: 600;
@@ -54,6 +59,11 @@ main .info_produtos {
   justify-content: space-between;
   padding: 0 5rem 0 5rem;
 }
+@media screen and (max-width: 699px) {
+  main .info_produtos {
+    padding: 0 2rem 0 2rem;
+  }
+}
 main .info_produtos h3 {
   font-weight: 400;
   text-transform: uppercase;
@@ -70,6 +80,11 @@ main .card_produtos {
   justify-content: space-between;
   gap: 5rem;
   padding: 3rem 2rem 3rem 2rem;
+}
+@media screen and (max-width: 860px) {
+  main .card_produtos {
+    justify-content: center;
+  }
 }
 main .card_produtos .card_produto {
   width: 350px;
@@ -122,6 +137,15 @@ footer .navegacao {
   padding: 0 5rem 0 5rem;
   border: solid 1px #A5A1A1;
 }
+@media screen and (max-width: 768px) {
+  footer .navegacao {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 45vh;
+    padding: 0 2rem 0 2rem;
+  }
+}
 footer .navegacao nav li {
   list-style: none;
   margin-bottom: 15px;
@@ -130,6 +154,11 @@ footer .navegacao nav li a {
   text-decoration: none;
   color: #161616;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  footer .navegacao .newsletter {
+    width: 100%;
+  }
 }
 footer .navegacao .newsletter h2 {
   color: #161616;
@@ -141,6 +170,12 @@ footer .navegacao .newsletter div {
   display: flex;
   flex-direction: row;
 }
+@media screen and (max-width: 768px) {
+  footer .navegacao .newsletter div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 footer .navegacao .newsletter div input {
   width: 300px;
   height: 40px;
@@ -150,6 +185,15 @@ footer .navegacao .newsletter div input {
   padding: 5px;
   font-size: 1rem;
   color: #ccc;
+}
+@media screen and (max-width: 768px) {
+  footer .navegacao .newsletter div input {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
 }
 footer .navegacao .newsletter div button {
   background: #5CA720;
@@ -164,6 +208,12 @@ footer .navegacao .newsletter div button {
 footer .navegacao .newsletter div button:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  footer .navegacao .newsletter div button {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
 footer .social_medias {
   height: 15vh;
   display: flex;
@@ -173,4 +223,9 @@ footer .social_medias {
 }
 footer .social_medias a img {
   width: 40px;
+}
+@media screen and (max-width: 768px) {
+  footer .social_medias {
+    padding: 0 0 0 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

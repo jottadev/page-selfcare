@@ -1,2 +1,2 @@
 # Landing SelfCare
-<a href="https://selfcareweb.netlify.app/"/>
+Deploy: <a href="https://selfcareweb.netlify.app/"/>
